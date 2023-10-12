@@ -1,0 +1,37 @@
+<div class="bsi-complaints">
+	<table id="complaintsTable" border="1">
+        <thead>
+            <tr>
+                <th>Date Received</th>
+                <th>Product</th>
+                <th>Sub Product</th>
+                <th>Issue</th>
+                <!-- ... Add headers for all other fields -->
+                <th>Complaint ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be populated here via JavaScript -->
+        </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Use jQuery to fetch the data
+        $(document).ready(function() {
+            $.getJSON('/data/complaints.json', function(data) {
+                data.forEach(function(complaint) {
+                    var row = '<tr>';
+                    row += '<td>' + complaint.date_received + '</td>';
+                    row += '<td>' + complaint.product + '</td>';
+                    row += '<td>' + complaint.sub_product + '</td>';
+                    row += '<td>' + complaint.issue + '</td>';
+                    // ... Add all other fields
+                    row += '<td>' + complaint.complaint_id + '</td>';
+                    row += '</tr>';
+                    $('#complaintsTable tbody').append(row);
+                });
+            });
+        });
+    </script>
+</div>
