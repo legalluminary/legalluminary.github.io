@@ -18,7 +18,7 @@ author:
 social:
   name: Justice Template
   links:
-    - https://github.com/CloudCannon/justice-jekyll-template
+    - https://github.com/legalluminary/justice-jekyll-template
 
 # -----
 # Build
@@ -81,7 +81,7 @@ exclude:
   - LICENCE
 
 # -----------
-# CloudCannon
+# legalluminary
 
 _select_data:
   call_to_actions:

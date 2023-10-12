@@ -5,11 +5,11 @@ Increase the web presence of a law firm or business with this configurable theme
 
 ![Justice template screenshot](images/_screenshot.png)
 
-Justice was made by [CloudCannon](https://cloudcannon.com/), the Cloud CMS for Jekyll.
+Justice was made by [legalluminary](https://legalluminary.com/), the Cloud CMS for Jekyll.
 
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
+Find more templates, themes and step-by-step Jekyll tutorials at [legalluminary Academy](https://learn.legalluminary.com/).
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/justice-jekyll-template)
+[![Deploy to legalluminary](https://buttons.legalluminary.com/deploy.svg)](https://app.legalluminary.com/register#sites/connect/github/legalluminary/justice-jekyll-template)
 
 ## Features
 
@@ -21,7 +21,7 @@ Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Ac
 * Disqus comments for posts
 * Staff and author system
 * Configurable footer
-* Optimised for editing in [CloudCannon](https://cloudcannon.com/)
+* Optimised for editing in [legalluminary](https://legalluminary.com/)
 * RSS/Atom feed
 * SEO tags
 * Google Analytics
@@ -30,7 +30,7 @@ Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Ac
 
 1. Add your site and author details in `_config.yml`.
 2. Add your Google Analytics and Disqus keys to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+3. Get a workflow going to see your site's output (with [legalluminary](https://app.legalluminary.com/) or Jekyll locally).
 
 ## Develop
 
@@ -50,7 +50,7 @@ $ bundle exec jekyll serve
 
 ## Editing
 
-Justice is already optimised for adding, updating and removing pages, staff, posts, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
+Justice is already optimised for adding, updating and removing pages, staff, posts, company details and footer elements in [legalluminary](https://app.legalluminary.com/).
 
 ### Posts
 
@@ -60,7 +60,7 @@ Justice is already optimised for adding, updating and removing pages, staff, pos
 
 ### Contact Form
 
-* Preconfigured to work with [CloudCannon](https://app.cloudcannon.com/), but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
+* Preconfigured to work with [legalluminary](https://app.legalluminary.com/), but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
 * Sends email to the address listed in company details.
 
 ### Staff

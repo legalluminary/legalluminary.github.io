@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1>Complaints</h1>
+
+<ul>
+{% for complaint in site.data.complaints %}
+  <li>{{ complaint }}</li>
+{% endfor %}
+</ul>
