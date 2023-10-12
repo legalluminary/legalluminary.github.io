@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Justice Template
-url: "https://orchid-heron.cloudvent.net"
+title: Legal Luminary
+url: "https://legalluminary.com"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -16,9 +16,9 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Justice Template
+  name: Legal Luminary Firm Template
   links:
-    - https://github.com/legalluminary/justice-jekyll-template
+    - https://github.com/legalluminary/legalluminary.github.io
 
 # -----
 # Build
