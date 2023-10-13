@@ -1,15 +1,13 @@
-# Justice
+# Legal Luminary Platform (LLP)
 
-Law firm themed business template for Jekyll. Browse through a [live demo](https://grey-grouse.cloudvent.net/).
-Increase the web presence of a law firm or business with this configurable theme.
+Law firms use our platform to manage client cases [live demo](https://legalluminary.com/).
+SureCase represents the standard in civil procedings with revised statutes lookup and recent court rulings.
 
-![BSI Settlement screenshot](images/_screenshot.png)
+Legal Luminary was made by [websharpstudios](https://websharpstudios.com/) the Cloud CMS for dotnet.
 
-Justice was made by [legalluminary](https://legalluminary.com/), the Cloud CMS for Jekyll.
+Obtain certification and step-by-step Legal Luminary training at [LLP Academy](https://learn.legalluminary.com/platform).
 
-Find more templates, themes and step-by-step Jekyll tutorials at [legalluminary Academy](https://learn.legalluminary.com/).
-
-[![Deploy to legalluminary](https://buttons.legalluminary.com/deploy.svg)](https://app.legalluminary.com/register#sites/connect/github/legalluminary/justice-jekyll-template)
+[![Deploy to legalluminary](https://legalluminary.com/deploy.svg)](https://app.legalluminary.com/register#sites/connect/github/legalluminary/justice-jekyll-template)
 
 ## Features
 
