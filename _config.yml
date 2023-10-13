@@ -2,16 +2,13 @@
 # Site
 
 title: Legal Luminary
-url: "https://legalluminary.com"
-baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
+url: "https://legalluminary.github.io/legalluminary"
+baseurl:  "https://legalluminary.com"
+google_analytics_key: YOUR_ANALYTICS_KEY
+google_maps_javascript_api_key: YOUR_API_KEY_HERE
 disqus_shortname:
-
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: BSI Settlement with example complaints for a law firm.
-author:
+description: Oregon Revised Statutes,  Court Rules for Civil Procedings (ORCP), Uniform Trial code (UTC) Title 4 Evidence
   name:
   email:
   twitter: # twitter username without the @ symbol
