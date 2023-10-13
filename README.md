@@ -1,13 +1,12 @@
 # Legal Luminary Platform (LLP)
 
-Law firms use our platform to manage client cases [live demo](https://legalluminary.com/).
-SureCase represents the standard in civil procedings with revised statutes lookup and recent court rulings.
+The legal luminary platform by [Web# Studios](https://websharpstudios.com) consists of 
+ * SureCase software suite for Civil, Landlord Tenant, and Probate case matters
+ * DigiCert criminal, prosecutorial, and habeus corpus case matters
 
-Legal Luminary was made by [websharpstudios](https://websharpstudios.com/) the Cloud CMS for dotnet.
+Legal Luminary was created at [websharpstudios](https://websharpstudios.com/) home of the dotnet Store Front for online shopping.
 
-Obtain certification and step-by-step Legal Luminary training at [LLP Academy](https://learn.legalluminary.com/platform).
-
-[![Deploy to legalluminary](https://legalluminary.com/deploy.svg)](https://app.legalluminary.com/register#sites/connect/github/legalluminary/justice-jekyll-template)
+To obtain LLP certification and step-by-step training visit [LLP Academy](https://learn.legalluminary.com/platform).
 
 ## Features
 
