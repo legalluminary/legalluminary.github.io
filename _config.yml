@@ -1,32 +1,35 @@
 # ----
 # Site
 
-title: Legal Luminary
+title: Legal Luminary Platform
 url: "https://legalluminary.github.io/legalluminary"
 baseurl:  "https://legalluminary.com"
 google_analytics_key: YOUR_ANALYTICS_KEY
 google_maps_javascript_api_key: YOUR_API_KEY_HERE
 disqus_shortname:
 logo: /siteicon.png
-description: Oregon Revised Statutes,  Court Rules for Civil Procedings (ORCP), Uniform Trial code (UTC) Title 4 Evidence
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+description: Oregon Revised Statutes, Court Rules for Civil Procedings (ORCP), Uniform Trial Code (UTC) Title 4 Evidence
+  name: Web Sharp Studios, Inc.
+  email:  legalluminary@websharpstudios.com
+  twitter: opencoarrays
 social:
-  name: Legal Luminary Firm Template
+  name: Legal Luminary Platform on Github
   links:
     - https://github.com/legalluminary/legalluminary.github.io
 
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: PST/UTC
 
 paginate: 10
 paginate_path: "/blog/:num/"
 
 collections:
   - "staff_members"
+  - "attorneys"
+  - "paralegals"
+  - "case_management"
 
 defaults:
   -
