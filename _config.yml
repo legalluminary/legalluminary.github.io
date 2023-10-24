@@ -8,16 +8,7 @@ google_analytics_key: YOUR_ANALYTICS_KEY
 google_maps_javascript_api_key: YOUR_API_KEY_HERE
 disqus_shortname:
 logo: /siteicon.png
-description: Oregon Revised Statutes, Court Rules for Civil Procedings (ORCP), Uniform Trial Code (UTC) Title 4 Evidence
-  name: Web Sharp Studios, Inc.
-  email:  legalluminary@websharpstudios.com
-  twitter: opencoarrays
-social:
-  name: Legal Luminary Platform on Github
-  links:
-    - https://github.com/legalluminary/legalluminary.github.io
 
-# -----
 # Build
 
 timezone: PST/UTC
