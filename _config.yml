@@ -3,7 +3,7 @@
 
 title: Legal Luminary Platform
 url: "https://legalluminary.github.io/legalluminary"
-baseurl:  "https://legalluminary.com"
+baseurl:  ""
 google_analytics_key: YOUR_ANALYTICS_KEY
 google_maps_javascript_api_key: YOUR_API_KEY_HERE
 disqus_shortname:
