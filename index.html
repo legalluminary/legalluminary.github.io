@@ -2,10 +2,14 @@
 layout: default
 ---
 
-<h1>Complaints</h1>
+<h2>Subpoena from Case No. 23LT14545</h2>
 
 <ul>
 {% for complaint in site.data.complaints %}
-  <li>{{ complaint }}</li>
+  
+  <li> <strong>{{ complaint.sub_product }}</strong> complaint against <a href="bsifinancial.com">BSI Financial</a> under the topic <strong>{{ complaint.issue }}</strong>:<br /> 
+    <div style="font-style: italic; font-size: smaller; margin-left: 10px"> {{ complaint.complaint_what_happened }} </div>
+    <div style="font-style: italic; margin-left: 5px"> -- {{ complaint.state }} Resident, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ complaint.date_received }} </div>
+  </li>
 {% endfor %}
 </ul>
