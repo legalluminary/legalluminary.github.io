@@ -3,18 +3,18 @@
 
 title: Legal Luminary Platform
 url: "http://legalluminary.com"
-baseurl:  "http://luminarylegal.com"
+baseurl:  "http://legalluminary.com"
 google_analytics_key: MY_GOOGLE_ANALYTICS_KEY
 google_maps_javascript_api_key: MY_GOOGLE_MAPS_API_KEY_HERE
 disqus_shortname: llp
-logo: /siteicon.png
+logo: siteicon.png
 
 # Build
 
 timezone: US/Pacific
 
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "blog/:num/"
 
 collections:
   - "staff_members"
@@ -29,8 +29,8 @@ defaults:
       path: ""
     values:
       layout: page
-      background_image_path: /uploads/building.jpg
-      image: /uploads/building.jpg
+      background_image_path: uploads/building.jpg
+      image: uploads/building.jpg
   -
     scope:
       path: ""
