@@ -2,11 +2,11 @@
 # Site
 
 title: Legal Luminary Platform
-url: "https://legalluminary.github.io/legalluminary"
-baseurl:  ""
-google_analytics_key: YOUR_ANALYTICS_KEY
-google_maps_javascript_api_key: YOUR_API_KEY_HERE
-disqus_shortname:
+url: "https://legalluminary.com/"
+baseurl:  "http://luminarylegal.com/"
+google_analytics_key: MY_GOOGLE_ANALYTICS_KEY
+google_maps_javascript_api_key: MY_GOOGLE_MAPS_API_KEY_HERE
+disqus_shortname: llp
 logo: /siteicon.png
 
 # Build
@@ -21,6 +21,7 @@ collections:
   - "attorneys"
   - "paralegals"
   - "case_management"
+  - "complaints"
 
 defaults:
   -
@@ -79,6 +80,7 @@ _select_data:
     - Contact
     - Blog
     - Map
+    - File
 
   social_icons:
     - Facebook
