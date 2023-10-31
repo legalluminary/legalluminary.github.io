@@ -51,7 +51,7 @@ defaults:
       _options:
         image:
           width: 440
-          height: 440
+          height: 440 
 
 permalink: pretty
 
