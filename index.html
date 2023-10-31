@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<h2>BSI Financial vs. Scott Weeden</h2>
+<h2>BSI Financial vs. Scott Weeden; all Affected Consumers</h2>
 <h3>November 8th 2023 <br />4:20 PM Central Time <br /> 5:20 PM Eastern <BR /> 2:20 PM Pacific</h3>
-<h4>Join by Phone: <a href="tel:+15033889555;24908362270">+1 (503) 388-9555</a> Access Code: <strong>249 083 62270</strong></h4>
+<h4>Join by Phone: <a href="tel:+15033889555;24908362270">+1 (503) 388-9555</a><br> Access Code: <strong>249 083 62270</strong></h4>
 <ul>
 {% for complaint in site.data.complaints %}
   
-  <li><a href="http://www.hud.gov">{{ complaint.sub_product }}</a> complaint against <a href="http://bsifinancial.com">BSI Financial</a> under the topic <strong>{{ complaint.issue }}</strong>:<br /> 
+  <li><a href="http://www.hud.gov/fha">{{ complaint.sub_product }}</a> complaint against <a href="http://bsifinancial.com">BSI Financial</a> under the topic <strong>{{ complaint.issue }}</strong>:<br /> 
     <div style="font-style: italic; font-size: smaller; margin-left: 10px"> {{ complaint.complaint_what_happened }} </div>
     <div style="font-style: italic; margin-left: 5px"> -- {{ complaint.state }} Resident &nbsp;&nbsp;{{ complaint.date_received }} </div>
   </li>
