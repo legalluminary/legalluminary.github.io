@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Legal Luminary Platform
+title: BSI FINANCIAL SERVICES
 url: "http://legalluminary.com"
 baseurl:  ""
 google_analytics_key: G-BY7TCCZNKC
@@ -22,6 +22,11 @@ collections:
   - "paralegals"
   - "case_management"
   - "complaints"
+
+html_pages:
+  exclude:
+    - "sitemap.xml"
+    - "robots.txt"
 
 defaults:
   -
