@@ -12,6 +12,19 @@ Leave your comments below:
 {% for complaint in bsicomplaints %}
 {% endfor %}
 </ul>
+<!-- The script tags need to be included once per page where embeds appear. Putting it in the <head> tag will be fastest. -->
+  <script>function abConfigure(c) {window.actblueConfig = c}</script>
+  <script src="https://secure.actblue.com/cf/assets/actblue.js" async data-ab-source="snippet-20231108"></script>
+  <!-- This div should be included in the page where you want the goal-tracker to appear. -->
+  <div data-ab-goal-tracker
+   data-ab-name="www.legalluminary.com"
+   data-ab-height="auto"
+   data-ab-width="100%"
+   data-ab-refcode="LegalLuminary"
+  >
+    <!-- Fall-back content (in case the embeddable doesn't load) -->
+    <a href="https://secure.actblue.com/donate/www.legalluminary.com">Donate</a>
+  </div>
 <table style="border-collapse: collapse; width: 100%">
   <tr>
     <td><input type="text" id="lastname" name="lastname" />
