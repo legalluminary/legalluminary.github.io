@@ -23,11 +23,10 @@ layout: default
 <ul>
 {% assign bsicomplaints = site.data.complaints | orderby: 'zip_code' %}
 {% for complaint in bsicomplaints %}
-  
   <li style="margin-bottom: 5px">
-    <a href="http://www.hud.gov/fha">{{ complaint.sub_product }}</a> complaint against <a href="http://bsifinancial.com">BSI Financial</a> under the topic <strong>{{ complaint.issue }}</strong>:<br /> 
+    {{ complaint.state }} Resident, complaint against <a href="http://bsifinancial.com">BSI Financial</a>:<br /> 
     <div style="font-style: italic; font-size: smaller; margin-left: 10px"> {{ complaint.complaint_what_happened }} </div>
-    <div style="font-style: italic; margin-left: 5px"> {{ complaint.state }} Resident, &nbsp;&nbsp;{{ complaint.date_received }} </div>
+    <div style="font-style: normal; margin-left: 5px">  &nbsp;&nbsp;{{ complaint.date_received }} </div>
   </li>
 {% endfor %}
 </ul>
