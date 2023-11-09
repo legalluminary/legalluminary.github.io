@@ -9,11 +9,10 @@ Seeks a second term
 Leave your comments below:
 <ul>
 {% assign bsicomplaints = site.data.complaints | orderby: 'date_received' %}
+
 {% for complaint in bsicomplaints %}
 {% endfor %}
 </ul>
-<!-- The script tags need to be included once per page where embeds appear. Putting it in the <head> tag will be fastest. -->
-   <!-- This div should be included in the page where you want the goal-tracker to appear. -->
   
 <table style="border-collapse: collapse; width: 100%">
   <tr>
@@ -27,4 +26,4 @@ Leave your comments below:
       <input type="text" form="mike" aria-multiline="true" />
     <td>
   </tr>
-  </table>
+</table>
