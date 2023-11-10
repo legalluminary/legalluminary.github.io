@@ -2,20 +2,9 @@
 layout: default
 ---
 
-<h2>BSI Financial</h2>
+<h2>Mike Schmidt</h2>
 <h3>
-<table style="border-width: 0; border:none;" border="0">
-  <thead>
-    <th>Affected Consumers: <a href="tel:+15033889555;24908362270">+1 (503) 388-9555</a>
-      <br> Access Code: <strong>249 083 62270</strong>
-    </th>
-    <th>Wednesday November 8th 2023 
-      <br /> 5:30 PM Eastern 
-      <br /> 2:30 PM Pacific 
-      <br /> 4:30 PM Central
-    </th>
-</thead>
-</table>
+Seeks a second term for DA
 </h3>
 
 <p>
@@ -30,13 +19,3 @@ layout: default
    <a href="https://secure.actblue.com/donate/www.legalluminary.com">Donate</a>
    </div>
 </p>
-<ul>
-{% assign bsicomplaints = site.data.complaints | orderby: 'zip_code' %}
-{% for complaint in bsicomplaints %}
-  <li style="margin-bottom: 5px">
-    {{ complaint.state }} Resident, complaint against <a href="http://bsifinancial.com">BSI Financial</a>:<br /> 
-    <div style="font-style: italic; font-size: smaller; margin-left: 10px"> {{ complaint.complaint_what_happened }} </div>
-    <div style="font-style: normal; margin-left: 5px">  &nbsp;&nbsp;{{ complaint.date_received }} </div>
-  </li>
-{% endfor %}
-</ul>
