@@ -1,9 +1,9 @@
 # ----
 # Site
 
-title: Legal Luminary - Portland News for Attorneys
+title: Portland News for Attorneys
 url: "http://legalluminary.com"
-baseurl:  ""
+baseurl:  "http://luminarylegal.com"
 google_analytics_key: G-BY7TCCZNKC
 google_tags_key: GT-W6KQXVC
 disqus_shortname: llp
